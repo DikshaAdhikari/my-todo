@@ -1,0 +1,31 @@
+li{
+  padding-left: 0;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Redressed', cursive;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color:#212121;
+  text-transform: capitalize;
+}
+.todo_style {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #bbbbbb;
+  margin: 0 15px 0 35px;
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.todo_style .fa-times:hover{
+  background-color: #ec0101;
+}
