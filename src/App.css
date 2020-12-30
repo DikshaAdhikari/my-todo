@@ -67,7 +67,7 @@ ol{
     width: 60%;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
   .center_div{
     width: 95%;
   }
